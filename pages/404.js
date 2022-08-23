@@ -1,9 +1,13 @@
+import styles from '/styles/Error.module.scss'
+
 
 const Error = () => {
 
     return (
         <>
-            <h1>Custom 404 page</h1>
+            <div className={styles.container}>
+                <h1>404</h1>
+            </div>
         </>
     )
 }
